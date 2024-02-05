@@ -20,7 +20,7 @@ function Blogs() {
               </p>
               <p className="text-base py-2">{post.content}</p>
               <div className="flex py-2 gap-2">{post.tags.map((tag, index) => {
-                return <span key={index} className="text-blue-500 underline font-bold text-sm">{`#${tag}`}</span>
+                return <span key={index} className="text-blue-600 underline font-bold text-xs">{`#${tag}`}</span>
               })}</div>
             </div>
           ))
